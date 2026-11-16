@@ -1,0 +1,18 @@
+# Archivos automáticos de After Effects
+*.aep.bak
+*.aep~
+Adobe Premiere Pro Preview Files/
+Adobe Media Encoder Queue/
+Media Cache/
+Media Cache Files/
+*.cfa
+*.pek
+
+# Renders temporales (los finales van a entregables/ y se versionan aparte)
+proyectos/*/exports/*.mov
+proyectos/*/exports/*.mp4
+proyectos/*/exports/*.tmp
+
+# Sistema
+.DS_Store
+Thumbs.db
